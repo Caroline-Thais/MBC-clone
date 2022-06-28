@@ -210,4 +210,47 @@ iframe{
     margin-bottom: 5%;
 }
 
+.assinar{
+    height: 100vh;
+    padding: 5%;
+    text-align: center;
+}
+
+.assinar-step{
+    margin-bottom: 0;
+    box-shadow: 0 10px 20px gray;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.assinar-steps{
+    display: flex;
+    align-items:center flex-start;
+    justify-content: center;
+    gap: 5%;
+    height: 50%;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.assinar-btn{
+    padding: 1.5% 5%;
+    text-align: center;
+    background-color: #00be5c;
+    color: white;
+    border-radius: 3%;
+    border: 0;
+    font-size: 110%;
+    margin-top: 5%;
+}
+
+.quem-recomenda{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
 
