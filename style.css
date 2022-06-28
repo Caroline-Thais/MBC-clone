@@ -137,3 +137,77 @@ a:hover{
     margin: 5% 1% 0 2%;
 }
 
+.about{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-text{
+    font-size: 250%;
+    width: 25%;
+}
+
+iframe{
+    border-radius: 2%;
+}
+
+.como-funciona{
+    height: 90vh;
+    background-color: #fff6f6;
+    padding: 5%;
+    text-align: center;
+    
+}
+
+.como-funciona-steps{
+    display: flex;
+    align-items: center flex-start;
+    justify-content: center;
+    gap: 10%;
+}
+
+.como-funciona-text{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 3%;
+}
+
+.como-funciona-text-p1{
+    color: #ff4d4d;
+}
+
+.como-funciona-text-p2{
+    font-size: 300%;
+}
+
+.como-funciona-btn{
+    padding: 1.5% 5%;
+    text-align: center;
+    background-color: #00be5c;
+    color: white;
+    border-radius: 3%;
+    border: 0;
+    font-size: 110%;
+}
+
+.step{
+    width: 20%;
+    margin-bottom: 0;
+}
+
+.step-p1{
+    font-size: 120%;
+}
+
+.step-p2{
+    color: #575353;
+}
+
+.como-funciona-steps-img{
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+
