@@ -63,6 +63,7 @@ a:hover{
     color: white;
     align-items: center;
     padding-left: 150px;
+    border-bottom: solid 5px #ff4d4d;
 }
 
 .hero-text{
@@ -78,7 +79,7 @@ a:hover{
     padding: 10px 15px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    border: solid 2px white;
+    border: solid 1px white;
     background-color: #53577d;
     border-radius: 2%;
     font-size: 13px;
@@ -86,5 +87,53 @@ a:hover{
     color: white;
 }
 
+.orange-button-hero{
+    padding: 5% 20%;
+    color: white;
+    background-color: #ff6b00;
+    border: 0;
+    border-radius: 2%;
+}
 
+.hero-p3{
+    margin: 15px 80px;
+}
+
+.nossosnumeros{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30vh;
+    background-color: #212121;
+    border-bottom: solid 5px #ff4d4d;
+    color: white;
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+.nossosnumeros-destaque{
+    color: #ff4d4d;
+    font-size: 150%;
+}
+
+.nossosnumeros-p{
+    width: 7%;
+    margin-left: 10%;
+    text-align: end;
+
+}
+
+.nossosnumeros-destaque-title{
+    font-size: 180%;
+    line-height: 1;
+    margin-top: 3%;
+}
+
+.line{
+    height: 2%;
+    width: 15%;
+    background-color: #ff4d4d;
+    display: inline-flex;
+    margin: 5% 1% 0 2%;
+}
 
