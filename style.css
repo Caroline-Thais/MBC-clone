@@ -330,3 +330,47 @@ iframe{
     margin-right: 10%;
 }
 
+footer{
+    color: white;
+    background-color: black;
+    height: 90vh;  
+}
+
+.address{
+    margin-left: 10%;   
+}
+
+.address p{
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-list{
+    display: flex;
+    padding-top: 5%;
+
+}
+
+.footers{
+    display: flex;
+
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    margin-left: 100px;
+
+}
+
+.footer-link{
+    color: white;
+    opacity: 0.6;
+}
+
+.f-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity:initial;
+}
+
