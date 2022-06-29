@@ -374,3 +374,24 @@ footer{
     opacity:initial;
 }
 
+.docs{
+    text-align: center;
+}
+
+.docs p{
+    color: white;
+    opacity: 0.6;
+    margin-top: 1%;
+    font-size: smaller;
+}
+
+.docs a{
+    margin-right: 2%;
+    opacity: 0.9;
+}
+
+.frase{
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
