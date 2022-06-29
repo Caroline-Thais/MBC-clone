@@ -249,8 +249,84 @@ iframe{
 }
 
 .quem-recomenda{
-    height: 100vh;
+    height: 150vh;
     background-color: black;
     color: white;
+}
+
+.quem-recomenda-title{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 220%;
+}
+
+.line-r{
+    height: 0.5%;
+    width: 10%;
+    background-color: #ff4d4d;
+    margin-left: 45%;
+}
+
+.club{
+    height: 55vh;
+    background-image: url(images/bannermain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+
+}
+
+.club-p1{
+    font-size: 250%;
+    padding-top: 7%;
+    font-weight: bolder;
+}
+
+.club-btn{
+    background-color: #0097ff;
+    border-radius: 2%;
+    border: 0;
+    padding: 1% 3%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.footer-inf-terluria{
+    height: 10vh;
+    background-color: #143c4d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-inf-terluria p{
+    padding-top: 1.5%;
+    color: white;
+    opacity: 0.6;
+}
+
+.terluria-btn{
+    color: white;
+    border: solid 2px white;
+    background-color: transparent;
+    padding: 0.5% 4%;
+    border-radius: 3%;
+    margin-left: 20%;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+
+.club-logo{
+    height: 40px;
+}
+
+.terluria-logo{
+    height: 60px;
+    margin-right: 10%;
 }
 
