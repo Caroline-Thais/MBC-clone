@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>Minha Biblioteca Católica | O clube de livros católicos</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
+    <link rel="canonical" href="https://preview.amp.dev/pt_br/documentation/components/amp-carousel.example.2.html">
+    <meta name="viewport" content="width=device-width">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
 
@@ -38,14 +42,16 @@
             <p class="hero-p2">Conheça o livro <b>mais completo</b> sobre o <b>Sagrado Coração de Jesus</b> e aprenda a cultivar o <b>amor a Nosso Senhor</b> na Eucaristia.</p>
             <button class="orange-button-hero"><b>Quero conhecer a Devoção</b></button>
             <p class="hero-p3"><b>Box completo + frete grátis</b></p>
+            </div>
             <div class="hero-img">
                 
             </div>
-            <div class="whatsapp-fixed-link">
-                <img src="">
-            </div>
+            <p><img  class="whatsapp-fixed-link" src="images/whatsapp.png" height="60px"></p>
+            
     </section>
-
+    <div >
+        
+    </div>
     <section class="nossosnumeros">
         <p class="nossosnumeros-destaque-title"><b>Nossos<br> números</b></p> <div class="line"></div> 
         <p class="nossosnumeros-p">
@@ -117,20 +123,20 @@
         <div class="assinar-steps">
             <div class="assinar-step">
                 <img class="como-funciona-steps-img" src="images/choose.png">
-                <p class="step-p1">Escolha seu plano</p>
-                <p class="step-p2">2 opções para você escolher a que mais combina com você.</p>
+                <p class="step-p1"><b>Escolha seu plano</b></p>
+                <p class="step-p3">2 opções para você escolher a que mais combina com você.</p>
             </div>
 
             <div class="assinar-step">
                 <img class="como-funciona-steps-img" src="images/tela.png">
-                <p class="step-p1">Preencha o formulário</p>
-                <p class="step-p2">Confirme suas informações e escolha sua forma de pagamento.​</p>
+                <p class="step-p1"><b>Preencha o formulário</b></p>
+                <p class="step-p3">Confirme suas informações e escolha sua forma de pagamento.​</p>
             </div>
 
             <div class="assinar-step">
                 <img class="como-funciona-steps-img" src="images/entrega.png">
-                <p class="step-p1">Receba o seu box</p>
-                <p class="step-p2">O box é entregue sempre no mês seguinte ao da assinatura.</p>
+                <p class="step-p1"><b>Receba o seu box</b></p>
+                <p class="step-p3">O box é entregue sempre no mês seguinte ao da assinatura.</p>
             </div>
         </div>
 
@@ -141,35 +147,53 @@
     <section class="quem-recomenda">
         <p class="quem-recomenda-title">Quem reco​menda os<br> nossos tesouros?​</p>
         <div class="line-r"></div>
-        
-        <div>
-            <p>Juliano</p>
-            <blockquote></blockquote>
-        </div> 
 
-        <div>
-            <p>Francisco</p>
-            <blockquote></blockquote>
-        </div>
-
-        <div>
-            <p>Camila</p>
-            <blockquote></blockquote>
-        </div>
-
-        <div>
-            <p>Quem reco​menda os<br/> nossos tesouros?​</p>
-            <p>Padre Paulo Ricardo</p>
-            <blockquote></blockquote>
-        </div>
+        <!---->
+    <amp-carousel loop id="carousel-with-preview"
+    width="500"
+    height="150"
+    layout="responsive"
+    loop
+    autoplay
+    type="slides">
+    <amp-img src="images/captura1.png"
+      width="250"
+      height="100"
+      layout="responsive"
+      loop
+    autoplay
+      alt=""></amp-img>
+    <amp-img src="images/captura3.png"
+      width="250"
+      height="100"
+      layout="responsive"
+      loop
+      autoplay
+      alt=""></amp-img>
+    <amp-img src="images/captura2.png"
+      width="250"
+      height="100"
+      loop
+      autoplay
+      layout="responsive"
+      alt=""></amp-img>
+      <amp-img src="images/captura4.png"
+      width="250"
+      height="100"
+      loop
+      autoplay
+      layout="responsive"
+      alt=""></amp-img>
+  </amp-carousel>
+                       
+        <!---->
 
         <div class="assinantes">
             <p>Confira os depoimentos de quem já é assinante​</p>
-            <div class="assinantesivideos">
-                video 1
-                video 2
-                video 3
-            </div>
+            <div class="assinantes-videos">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/eRD44P1AVjI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/aGA02cd8Hvw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/WnEsspTRxGo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
         </div>
     </section>
 
@@ -219,10 +243,10 @@
               </ul>
     
               <ul class="footer-ul">
-                <li class="footer-link f-title">Contato</li>
-                <li class="footer-link">Instagram</li>
-                <li class="footer-link">YouTube</li>
-                <li class="footer-link">LinkedIn</li>
+                <p><li class="footer-link f-title">Contato</li></p>
+                <p><li class="footer-link">Instagram</li></p>
+                <p><li class="footer-link">YouTube</li></p>
+                <p><li class="footer-link">LinkedIn</li></p>
               </ul>          
             </div>
         </div>
@@ -233,12 +257,10 @@
                 <p>Imagens meramente ilustrativas. Disponibilidade limitada sujeita aos itens em estoque no momento da efetivação da compra.<br>
                     A Loja Virtual disponibiliza alguns itens selecionados do acervo de livros, box e brindes da Minha Biblioteca Católica.</p>
                 <hr>
-                <p class="frase">Ad maiorem Dei gloriam</p>
+                <p>Ad maiorem Dei gloriam</p>
                 </div>
         </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

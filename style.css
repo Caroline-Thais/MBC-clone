@@ -52,7 +52,7 @@ a:hover{
 }
 
 .hero{
-    background-color: #0b145e;
+    background-color: #091153;
     /*background-image: url(images/heroimage.png);*/
     height: 85vh;
     background-position: top left;
@@ -64,6 +64,10 @@ a:hover{
     align-items: center;
     padding-left: 150px;
     border-bottom: solid 5px #ff4d4d;
+    background-image: url(./images/hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .hero-text{
@@ -99,6 +103,11 @@ a:hover{
     margin: 15px 80px;
 }
 
+.whatsapp-fixed-link{
+    text-align: end;
+    margin-top: 900%;
+    margin-right: 0;
+}
 .nossosnumeros{
     display: flex;
     align-items: flex-start;
@@ -201,12 +210,15 @@ iframe{
     font-size: 120%;
 }
 
-.step-p2{
+.step-p3{
     color: #575353;
+    width: 65%;
+    text-align: center;
+    margin-left: 15%;
 }
 
 .como-funciona-steps-img{
-    height: 25%;
+    height: 30%;
     margin-bottom: 5%;
 }
 
@@ -223,6 +235,7 @@ iframe{
     align-items: center;
     justify-content: center;
     border-radius: 5%;
+    padding-top: 5%;
 }
 
 .assinar-steps{
@@ -234,7 +247,7 @@ iframe{
     width: 90%;
     text-align: center;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .assinar-btn{
@@ -249,9 +262,11 @@ iframe{
 }
 
 .quem-recomenda{
-    height: 150vh;
+    height: 140vh;
     background-color: black;
     color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .quem-recomenda-title{
@@ -261,11 +276,27 @@ iframe{
 }
 
 .line-r{
-    height: 0.5%;
+    height: 0.3%;
     width: 10%;
     background-color: #ff4d4d;
     margin-left: 45%;
 }
+
+.assinantes{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.assinantes-videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
 
 .club{
     height: 55vh;
@@ -276,13 +307,15 @@ iframe{
     text-align: center;
     color: white;
     line-height: 1.2;
-
+    margin-top: 0;
+    margin-top: 0;
 }
 
 .club-p1{
     font-size: 250%;
-    padding-top: 7%;
+    padding-top: 5%;
     font-weight: bolder;
+    margin: 0;
 }
 
 .club-btn{
@@ -333,7 +366,7 @@ iframe{
 footer{
     color: white;
     background-color: black;
-    height: 90vh;  
+    height: 70vh;  
 }
 
 .address{
@@ -353,19 +386,28 @@ footer{
 
 .footers{
     display: flex;
+    align-content: flex-start;
+
 
 }
 .footer-ul{
     display: flex;
     flex-direction: column;
     line-height: 0.5;
-    margin-left: 100px;
-
+    margin-left: 120px;
+    list-style: none;
 }
 
 .footer-link{
     color: white;
     opacity: 0.6;
+}
+
+.footers p{
+    margin: 0;
+    padding: 0;
+    color: #00be5c;
+
 }
 
 .f-title{
@@ -390,8 +432,9 @@ footer{
     opacity: 0.9;
 }
 
-.frase{
-    font-size: 20px;
+.docs p:last-child{
+    font-size: 50px;
     text-transform: uppercase;
-    opacity: 0.6;
+    opacity: 0.5;
+    font-family: 'Times New Roman', Times, serif;
 }
