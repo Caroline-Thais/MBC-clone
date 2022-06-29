@@ -107,6 +107,8 @@ a:hover{
     text-align: end;
     margin-top: 900%;
     margin-right: 0;
+    margin-left: 1300%;
+    position:sticky
 }
 .nossosnumeros{
     display: flex;
