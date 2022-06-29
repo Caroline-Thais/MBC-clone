@@ -108,8 +108,22 @@ a:hover{
     margin-top: 900%;
     margin-right: 0;
     margin-left: 1300%;
-    position:sticky
+    border-radius: 50%; 
+    box-shadow: 0 0 0 20px rgba(0, 128, 0, 0.298);
+    animation: whats 2s infinite linear forwards, rays 2s 2s infinite linear;
 }
+@keyframes whats{
+    0%{
+        box-shadow: none;
+    }
+}
+
+@keyframes rays{
+    0%{
+        box-shadow: 0 0 0 0px rgb(154, 216, 154), 
+    }
+}
+
 .nossosnumeros{
     display: flex;
     align-items: flex-start;
