@@ -19,10 +19,6 @@ ul{
 
 }
 
-.navmenu li{
-    padding-top: 8px;
-}
-
 .navmenu li:hover{
     text-decoration: underline;
 }
@@ -49,8 +45,8 @@ a:hover{
 }
 
 .nav-button{
-    padding: 10px 50px;
-    border-radius: 3%;
+    padding: 10px 40px;
+    border-radius: 4%;
     color: #ff4d4d;
     background-color: white;
     border: 0;
@@ -93,7 +89,7 @@ a:hover{
 }
 
 .hero-box-button{
-    padding: 0 15px 0 0;
+    padding: 0 18px 0 0;
     text-transform: uppercase;
     margin-bottom: 10px;
     border: solid 1px white;
@@ -152,7 +148,10 @@ a:hover{
         box-shadow: 0 0 0 0px rgb(154, 216, 154), 
     }
 }
-
+.wu{
+    position: fixed;
+    margin-left: 28%;
+}
 
 .nossosnumeros{
     display: flex;
@@ -368,7 +367,6 @@ iframe{
     justify-content: space-around;
 }
 
-
 .club{
     height: 55vh;
     background-image: linear-gradient(to bottom, white, transparent, #ff4d4d), url(images/bannermain.jpeg);
@@ -452,57 +450,39 @@ iframe{
     margin-right: 10%;
 }
 
-footer{
+.rodape-b{
     color: white;
     background-color: black;
-    height: 75vh;  
+    padding-top: 2%;
+    padding-bottom: 0;
 }
 
-.address{
-    margin-left: 10%;   
-}
-
-.address p{
-    color: white;
-    opacity: 0.6;
-}
-
-.footer-list{
+.footer-wrapper-links{
     display: flex;
-    padding-top: 5%;
-
+    gap: 15%;
+    padding:  0 5%;
+    width: 45%;
+    
 }
 
-.footers{
+.rodape{
     display: flex;
-    align-content: flex-start;
-
-
-}
-.footer-ul{
-    display: flex;
-    flex-direction: column;
-    line-height: 0.5;
-    margin-left: 120px;
-    list-style: none;
+    justify-content: space-around;
+    margin-left: 10%;
+    height: 30vh;
 }
 
-.footer-link{
-    color: white;
-    opacity: 0.6;
+.footer-wrapper-links p{
+color: gray;
+cursor: pointer;
 }
 
-.footers p{
-    margin: 0;
-    padding: 0;
-    color: #00be5c;
-
+.footer-wrapper-links p:hover{
+    text-decoration: underline;
 }
 
-.f-title{
-    font-weight: bold;
-    text-transform: uppercase;
-    opacity:initial;
+.rodape p{
+    color: gray;
 }
 
 .docs-line{
@@ -513,6 +493,7 @@ footer{
 
 .docs{
     text-align: center;
+    margin: 8% 0 0 0;
 }
 
 .docs p{
@@ -527,7 +508,6 @@ footer{
     color: white;
     opacity: 0.6;
     margin-bottom: 4%;
-    margin-top: 4%;
 }
 
 hr{
@@ -540,4 +520,5 @@ hr{
     text-transform: uppercase;
     opacity: 0.5;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
 }
