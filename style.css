@@ -5,7 +5,7 @@
     justify-content: space-between;
     margin:  0;
     box-sizing: border-box;
-    padding: 0 7%;
+    padding: 0 115px;
 }
 
 ul{
@@ -13,7 +13,7 @@ ul{
     display: flex;
     text-align: none;
     display: flex;
-    gap: 1%;
+    gap: 20px;
     align-items: center;
     cursor: pointer;
 
@@ -26,7 +26,7 @@ ul{
 .nav-buttons{
     display: flex;
     align-items: center;
-    gap: 6%;
+    gap: 35px;
 
 }
 
@@ -45,8 +45,8 @@ a:hover{
 }
 
 .nav-button{
-    padding: 6% 20%;
-    border-radius: 0.6rem;
+    padding: 10px 40px;
+    border-radius: 4%;
     color: #ff4d4d;
     background-color: white;
     border: 0;
@@ -69,8 +69,8 @@ a:hover{
     flex-wrap: nowrap;
     color: white;
     align-items: center;
-    padding-left: 10%;
-    border-bottom: solid 0.3em #ff4d4d;
+    padding-left: 150px;
+    border-bottom: solid 5px #ff4d4d;
     background-image: url(./images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -78,28 +78,24 @@ a:hover{
 }
 
 .hero-text{
-    width: 40%;
+    width: 30%;
 }
 
 .hero-p1{
-    font-size: 100%;
+    font-size: 50px;
     line-height: 1;
-    margin-top: 3%;
-
-}
-
-.hero-p2{
-    font-size: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .hero-box-button{
-    padding: 0 2% 0 0;
+    padding: 0 18px 0 0;
     text-transform: uppercase;
-    margin-bottom: 1%;
-    border: solid 1% white;
+    margin-bottom: 10px;
+    border: solid 1px white;
     background-color: #53577d;
     border-radius: 2%;
-    font-size: 90%;
+    font-size: 12px;
     font-weight: bold;
     color: white;
     display: flex;
@@ -114,7 +110,7 @@ a:hover{
     color: white;
     background-color: #ff6b00;
     border: 0;
-    border-radius: 0.6rem;
+    border-radius: 2%;
     cursor: pointer;
 }
 
@@ -123,7 +119,7 @@ a:hover{
 }
 
 .hero-p3{
-    margin: 2% 10%;
+    margin: 15px 80px;
 }
 
 .hero-p3:hover{
@@ -137,7 +133,7 @@ a:hover{
     margin-right: 0;
     margin-left: 1300%;
     border-radius: 50%; 
-    box-shadow: 0 0 0 1em rgba(0, 128, 0, 0.298);
+    box-shadow: 0 0 0 20px rgba(0, 128, 0, 0.298);
     animation: whats 2s infinite linear forwards, rays 2s 2s infinite linear;
     cursor: pointer;
 }
@@ -149,7 +145,7 @@ a:hover{
 
 @keyframes rays{
     0%{
-        box-shadow: 0 0 0 0 rgb(154, 216, 154), 
+        box-shadow: 0 0 0 0px rgb(154, 216, 154), 
     }
 }
 .wu{
@@ -161,11 +157,11 @@ a:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 25vh;
+    height: 30vh;
     background-color: #212121;
-    border-bottom: solid 0.3em #ff4d4d;
+    border-bottom: solid 5px #ff4d4d;
     color: white;
-    font-size: 110%;
+    font-size: 20px;
     padding-top: 3%;
 }
 
@@ -210,7 +206,7 @@ a:hover{
 }
 
 iframe{
-    border-radius: 0.6rem;
+    border-radius: 2%;
 }
 
 .como-funciona{
@@ -249,7 +245,7 @@ iframe{
     text-align: center;
     background-color: #00be5c;
     color: white;
-    border-radius: 0.6rem;
+    border-radius: 3%;
     border: 0;
     font-size: 110%;
     cursor: pointer;
@@ -292,11 +288,11 @@ iframe{
 
 .assinar-step{
     margin-bottom: 0;
-    box-shadow: 0 100% 200% gray;
+    box-shadow: 0 10px 20px gray;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    border-radius: 0.6rem;
+    border-radius: 5%;
     padding-top: 5%;
     animation: piscando 5s infinite;
 }
@@ -326,7 +322,7 @@ iframe{
     text-align: center;
     background-color: #00be5c;
     color: white;
-    border-radius: 0.6rem;
+    border-radius: 3%;
     border: 0;
     font-size: 110%;
     margin-top: 5%;
@@ -361,7 +357,7 @@ iframe{
 .assinantes{
     padding-top: 5%;
     text-align: center;
-    font-size: 2em;
+    font-size: 30px;
    
 }
 
@@ -394,7 +390,7 @@ iframe{
 
 .club-btn{
     background-color: #0097ff;
-    border-radius: 0.6rem;
+    border-radius: 2%;
     border: 0;
     padding: 1% 3%;
     margin-bottom: 1%;
@@ -428,10 +424,10 @@ iframe{
 
 .terluria-btn{
     color: white;
-    border: solid 0.2em white;
+    border: solid 2px white;
     background-color: transparent;
     padding: 0.5% 4%;
-    border-radius: 0.1rem;
+    border-radius: 3%;
     margin-left: 10%;
     text-transform: uppercase;
     font-size: small;
@@ -445,12 +441,12 @@ iframe{
 }
 
 .club-logo{
-    height: 60%;
+    height: 40px;
     cursor: pointer;
 }
 
 .terluria-logo{
-    height: 70%;
+    height: 60px;
     margin-right: 10%;
 }
 
@@ -520,10 +516,9 @@ hr{
 }
 
 .docs p:last-child{
-    font-size: 300%;
+    font-size: 50px;
     text-transform: uppercase;
     opacity: 0.5;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0;
-    padding: 1% ;
 }
