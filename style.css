@@ -3,9 +3,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    margin:  0;
     box-sizing: border-box;
-    padding: 0 115px;
+    padding: 0 3%;
 }
 
 ul{
@@ -13,7 +12,7 @@ ul{
     display: flex;
     text-align: none;
     display: flex;
-    gap: 20px;
+    gap: 1%;
     align-items: center;
     cursor: pointer;
 
@@ -26,7 +25,7 @@ ul{
 .nav-buttons{
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 6%;
 
 }
 
@@ -45,7 +44,7 @@ a:hover{
 }
 
 .nav-button{
-    padding: 10px 40px;
+    padding: 6% 20%;
     border-radius: 0.6rem;
     color: #ff4d4d;
     background-color: white;
@@ -69,8 +68,8 @@ a:hover{
     flex-wrap: nowrap;
     color: white;
     align-items: center;
-    padding-left: 150px;
-    border-bottom: solid 5px #ff4d4d;
+    padding-left: 10%;
+    border-bottom: solid 0.3em #ff4d4d;
     background-image: url(./images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -78,24 +77,28 @@ a:hover{
 }
 
 .hero-text{
-    width: 30%;
+    width: 40%;
 }
 
 .hero-p1{
-    font-size: 50px;
+    font-size: 100%;
     line-height: 1;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+
+}
+
+.hero-p2{
+    font-size: 210%;
 }
 
 .hero-box-button{
-    padding: 0 18px 0 0;
+    padding: 0 2% 0 0;
     text-transform: uppercase;
-    margin-bottom: 10px;
-    border: solid 1px white;
+    margin-bottom: 1%;
+    border: solid 1% white;
     background-color: #53577d;
     border-radius: 2%;
-    font-size: 12px;
+    font-size: 90%;
     font-weight: bold;
     color: white;
     display: flex;
@@ -119,7 +122,7 @@ a:hover{
 }
 
 .hero-p3{
-    margin: 15px 80px;
+    margin: 2% 10%;
 }
 
 .hero-p3:hover{
@@ -133,7 +136,7 @@ a:hover{
     margin-right: 0;
     margin-left: 1300%;
     border-radius: 50%; 
-    box-shadow: 0 0 0 20px rgba(0, 128, 0, 0.298);
+    box-shadow: 0 0 0 1em rgba(0, 128, 0, 0.298);
     animation: whats 2s infinite linear forwards, rays 2s 2s infinite linear;
     cursor: pointer;
 }
@@ -145,7 +148,7 @@ a:hover{
 
 @keyframes rays{
     0%{
-        box-shadow: 0 0 0 0px rgb(154, 216, 154), 
+        box-shadow: 0 0 0 0 rgb(154, 216, 154), 
     }
 }
 .wu{
@@ -157,11 +160,11 @@ a:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 30vh;
+    height: 25vh;
     background-color: #212121;
-    border-bottom: solid 5px #ff4d4d;
+    border-bottom: solid 0.3em #ff4d4d;
     color: white;
-    font-size: 20px;
+    font-size: 110%;
     padding-top: 3%;
 }
 
@@ -288,7 +291,7 @@ iframe{
 
 .assinar-step{
     margin-bottom: 0;
-    box-shadow: 0 10px 20px gray;
+    box-shadow: 0 100% 200% gray;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -424,10 +427,10 @@ iframe{
 
 .terluria-btn{
     color: white;
-    border: solid 2px white;
+    border: solid 0.2em white;
     background-color: transparent;
     padding: 0.5% 4%;
-    border-radius: 3%;
+    border-radius: 0.1rem;
     margin-left: 10%;
     text-transform: uppercase;
     font-size: small;
@@ -441,12 +444,12 @@ iframe{
 }
 
 .club-logo{
-    height: 40px;
+    height: 60%;
     cursor: pointer;
 }
 
 .terluria-logo{
-    height: 60px;
+    height: 70%;
     margin-right: 10%;
 }
 
@@ -516,9 +519,10 @@ hr{
 }
 
 .docs p:last-child{
-    font-size: 50px;
+    font-size: 300%;
     text-transform: uppercase;
     opacity: 0.5;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0;
+    padding: 1% ;
 }
